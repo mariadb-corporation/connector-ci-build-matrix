@@ -50,6 +50,12 @@
       "db-tag": "12.1"
     },
     {
+      "name": "MariaDB 12.2 dev",
+      "os": "ubuntu-latest",
+      "db-type": "dev",
+      "db-tag": "12.2"
+    },    
+    {
       "name": "MariaDB 10.6 ES",
       "os": "ubuntu-latest",
       "db-type": "enterprise",
@@ -63,6 +69,13 @@
       "db-tag": "11.4",
       "run-condition": "${{ github.event_name == 'pull_request' }}"
     },
+    {
+      "name": "MariaDB 11.8 ES",
+      "os": "ubuntu-latest",
+      "db-type": "enterprise",
+      "db-tag": "11.8",
+      "run-condition": "${{ github.event_name == 'pull_request' }}"
+    },    
     {
       "name": "MySQL 8.0",
       "os": "ubuntu-latest",
