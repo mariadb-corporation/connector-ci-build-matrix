@@ -14,14 +14,14 @@ else
     FINAL_MATRIX="$BASE_MATRIX"
 fi
 
-# Filter the matrix based on GitHub event type
-if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
-    # Filter out enterprise db-type entries for pull requests
+# Filter the matrix based on GitHub event type and repository
+if [ "$GITHUB_EVENT_NAME" = "pull_request" ] || [[ ! "$GITHUB_REPOSITORY" =~ ^mariadb-corporation/ ]]; then
+    # Filter out enterprise db-type entries for pull requests or non-mariadb-corporation repositories
     FILTERED_MATRIX=$(echo "$FINAL_MATRIX" | jq '{
         include: [.include[] | select(.["db-type"] != "enterprise")]
     }')
 else
-    # Use the full matrix for other events
+    # Use the full matrix for other events in mariadb-corporation repositories
     FILTERED_MATRIX="$FINAL_MATRIX"
 fi
 
