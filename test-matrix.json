@@ -59,22 +59,19 @@
       "name": "MariaDB 10.6 ES",
       "os": "ubuntu-latest",
       "db-type": "enterprise",
-      "db-tag": "10.6",
-      "run-condition": "${{ !(github.event_name == 'pull_request' && startsWith(github.repository, 'mariadb-corporation/')) }}"
+      "db-tag": "10.6"
     },
     {
       "name": "MariaDB 11.4 ES",
       "os": "ubuntu-latest",
       "db-type": "enterprise",
-      "db-tag": "11.4",
-      "run-condition": "${{ !(github.event_name == 'pull_request' && startsWith(github.repository, 'mariadb-corporation/')) }}"
+      "db-tag": "11.4"
     },
     {
       "name": "MariaDB 11.8 ES",
       "os": "ubuntu-latest",
       "db-type": "enterprise",
-      "db-tag": "11.8",
-      "run-condition": "${{ !(github.event_name == 'pull_request' && startsWith(github.repository, 'mariadb-corporation/')) }}"
+      "db-tag": "11.8"
     },    
     {
       "name": "MySQL 8.0",
