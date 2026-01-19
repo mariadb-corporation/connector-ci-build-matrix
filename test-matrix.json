@@ -44,9 +44,9 @@
       "db-tag": "12.0"
     },
     {
-      "name": "MariaDB 12.1 dev",
+      "name": "MariaDB 12.1",
       "os": "ubuntu-latest",
-      "db-type": "dev",
+      "db-type": "community",
       "db-tag": "12.1"
     },
     {
