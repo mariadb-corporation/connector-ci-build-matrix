@@ -1,0 +1,53 @@
+{
+  "include": [
+    {
+      "name": "MariaDB 10.6",
+      "os": "ubuntu-22.04-s390x",
+      "db-type": "community",
+      "db-tag": "10.6"
+    },
+    {
+      "name": "MariaDB 10.11",
+      "os": "ubuntu-22.04-s390x",
+      "db-type": "community",
+      "db-tag": "10.11",
+      "additional-conf": "--max_allowed_packet=40M --innodb_log_file_size=400M"
+    },
+    {
+      "name": "MariaDB 11.4",
+      "os": "ubuntu-22.04-s390x",
+      "db-type": "community",
+      "db-tag": "11.4"
+    },
+    {
+      "name": "MariaDB 11.8",
+      "os": "ubuntu-22.04-s390x",
+      "db-type": "community",
+      "db-tag": "11.8"
+    },
+    {
+      "name": "MariaDB 12.0",
+      "os": "ubuntu-22.04-s390x",
+      "db-type": "community",
+      "db-tag": "12.0"
+    },
+    {
+      "name": "MariaDB 12.1",
+      "os": "ubuntu-22.04-s390x",
+      "db-type": "community",
+      "db-tag": "12.1"
+    },
+    {
+      "name": "MariaDB 12.2",
+      "os": "ubuntu-22.04-s390x",
+      "db-type": "community",
+      "db-tag": "12.2"
+    },    
+    {
+      "name": "MariaDB 12.3 dev",
+      "os": "ubuntu-22.04-s390x",
+      "db-type": "community",
+      "db-tag": "12.3-rc"
+    }
+  ]
+}
