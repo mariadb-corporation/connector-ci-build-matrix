@@ -65,7 +65,7 @@
       "name": "MariaDB 10.6 ES",
       "os": "ubuntu-latest",
       "db-type": "enterprise",
-      "db-tag": "10.6.24-20.1"
+      "db-tag": "10.6.24-20.0"
     },
     {
       "name": "MariaDB 11.4 ES",
