@@ -65,19 +65,19 @@
       "name": "MariaDB 10.6 ES",
       "os": "ubuntu-latest",
       "db-type": "enterprise",
-      "db-tag": "10.6.25-21"
+      "db-tag": "10.6"
     },
     {
       "name": "MariaDB 11.4 ES",
       "os": "ubuntu-latest",
       "db-type": "enterprise",
-      "db-tag": "11.4-minimal"
+      "db-tag": "11.4"
     },
     {
       "name": "MariaDB 11.8 ES",
       "os": "ubuntu-latest",
       "db-type": "enterprise",
-      "db-tag": "11.8-minimal"
+      "db-tag": "11.8"
     },    
     {
       "name": "MySQL 8.0",
