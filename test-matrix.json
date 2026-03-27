@@ -60,7 +60,13 @@
       "os": "ubuntu-latest",
       "db-type": "dev",
       "db-tag": "12.3"
-    },    
+    },
+    {
+      "name": "MariaDB 10.6 commu",
+      "os": "ubuntu-latest",
+      "db-type": "enterprise",
+      "db-tag": "10.6-community"
+    },
     {
       "name": "MariaDB 10.6.25-21 ES",
       "os": "ubuntu-latest",
