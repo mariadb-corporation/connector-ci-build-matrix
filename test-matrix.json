@@ -58,8 +58,8 @@
     {
       "name": "MariaDB 12.3 dev",
       "os": "ubuntu-latest",
-      "db-type": "dev",
-      "db-tag": "12.3"
+      "db-type": "community",
+      "db-tag": "12.3-rc"
     },
     {
       "name": "MariaDB 10.6 ES",
