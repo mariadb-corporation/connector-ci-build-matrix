@@ -1,16 +1,25 @@
 {
   "include": [
     {
-      "name": "MariaDB 11.8 (local) - windows",
-      "os": "windows-latest",
+      "name": "MariaDB 11.8 (local) - ubuntu",
+      "os": "ubuntu-latest",
       "db-type": "community",
-      "db-tag": "11.8"
+      "db-tag": "11.8",
+      "install-type": "local"
     },
     {
       "name": "MariaDB 11.8 (local) - macos",
       "os": "macos-latest",
       "db-type": "community",
-      "db-tag": "11.8"
+      "db-tag": "11.8",
+      "install-type": "local"
+    },
+    {
+      "name": "MariaDB 11.8 (local) - windows",
+      "os": "windows-latest",
+      "db-type": "community",
+      "db-tag": "11.8",
+      "install-type": "local"
     },
     {
       "name": "MariaDB 10.6",
