@@ -96,16 +96,16 @@
       "maxscale-tag": "latest"
     },  
     {
-      "name": "MySQL 8.0",
-      "os": "ubuntu-latest",
-      "db-type": "mysql",
-      "db-tag": "8.0"
-    },
-    {
       "name": "MySQL 8.4",
       "os": "ubuntu-latest",
       "db-type": "mysql",
       "db-tag": "8.4"
+    },
+    {
+      "name": "MySQL 9.7",
+      "os": "ubuntu-latest",
+      "db-type": "mysql",
+      "db-tag": "9.7"
     }
   ]
 }
